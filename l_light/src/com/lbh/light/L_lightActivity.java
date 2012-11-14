@@ -13,7 +13,7 @@ public class L_lightActivity extends Activity {
     boolean isLight;
     PowerManager powerManager = null;   
     WakeLock wakeLock = null; 
-    /** Called when the activity is first created. */
+   
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
