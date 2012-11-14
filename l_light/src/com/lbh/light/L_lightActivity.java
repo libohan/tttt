@@ -14,7 +14,6 @@ public class L_lightActivity extends Activity {
     PowerManager powerManager = null;   
     WakeLock wakeLock = null; 
    
-    
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
