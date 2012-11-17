@@ -13,6 +13,7 @@ public class L_lightActivity extends Activity {
     boolean isLight;
     PowerManager powerManager = null;   
     WakeLock wakeLock = null; 
+    
    
     @Override
     public void onCreate(Bundle savedInstanceState) {
